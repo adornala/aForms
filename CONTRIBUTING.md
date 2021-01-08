@@ -1,6 +1,8 @@
 We're really glad you're reading this, because we need volunteer developers to help this project come to fruition. 👏
 
-## Instructions
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+### Please follow these Instructions
 
 These steps will guide you through contributing to this project:
 

@@ -1,6 +1,9 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Travis](https://travis-ci.com/adornala/aForms.svg?branch=main)](https://travis-ci.com/adornala/aForms.svg?branch=main)
 [![Dev Dependencies](https://status.david-dm.org/gh/adornala/aForms.svg)](https://status.david-dm.org/gh/adornala/aForms.svg)
+[![Inline docs](http://inch-ci.org/github/adornala/aForms.svg?branch=main)](http://inch-ci.org/github/adornala/aForms)
+[![HitCount](http://hits.dwyl.com/adornala/aForms.svg)](http://hits.dwyl.com/adornala/aForms)
+[![Known Vulnerabilities](https://snyk.io/test/github/adornala/aForms/badge.svg?targetFile=package.json)](https://snyk.io/test/github/adornala/aForms?targetFile=package.json)
 
 # AForms
 
@@ -9,8 +12,9 @@ Enhanced forms library built using fomantic-ui, jQuery and form.io.
 ## Features
 
 - Typescript ES Modules
-- [Fomantic-ui](https://fomantic-ui.com/) - 2.8 and up
+- Customizable styles using [Fomantic-ui](https://fomantic-ui.com/) - 2.8 and up
 - Enhancing json generated using [formio.js](https://github.com/formio/formio.js)
+- ADA Compatible
 
 ### NPM scripts
 
