@@ -1,5 +1,5 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Travis](https://travis-ci.com/adornala/aForms.svg?branch=master)](https://travis-ci.com/adornala/aForms.svg?branch=master)
+[![Travis](https://travis-ci.com/adornala/aForms.svg?branch=main)](https://travis-ci.com/adornala/aForms.svg?branch=main)
 [![Dev Dependencies](https://david-dm.org/adornala/aForms.svg)](https://david-dm.org/adornala/aForms.svg)
 
 # AForms
