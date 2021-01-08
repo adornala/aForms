@@ -10,7 +10,7 @@ Enhanced forms library built using fomantic-ui, jQuery and form.io.
 
 - Typescript ES Modules
 - [Fomantic-ui](https://fomantic-ui.com/) - 2.8 and up
-- Enhancing [formio.js](https://github.com/formio/formio.js)
+- Enhancing json generated using [formio.js](https://github.com/formio/formio.js)
 
 ### NPM scripts
 
