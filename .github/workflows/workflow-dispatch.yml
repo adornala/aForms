@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version id"
+        required: true
+        default: ""
+        type: string
+jobs:
+  job1:
+    uses: ./.github/workflows/nested.yml
+    with:
+      version: ${{ inputs.version }}
