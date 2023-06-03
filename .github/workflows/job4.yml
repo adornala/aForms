@@ -1,1 +1,15 @@
-
+on:
+  workflow_call:
+    inputs:
+      release:
+        type: string
+        required: true
+        description: 'Release information'
+        
+jobs:
+  job4:
+    name: 4th Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show Output
+        run: echo '${{ inputs.release }}'
