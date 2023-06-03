@@ -1,0 +1,22 @@
+on:
+  workflow_call:
+    outputs:
+      release:
+        description: Release information
+        value: ${{ jobs.job2.outputs.release }}
+    inputs:
+      version:
+        type: string
+        required: true
+        description: 'Version information'
+        
+jobs:
+  job2:
+    name: 2nd Job
+    runs-on: ubuntu-latest
+    outputs:
+      release: '10'
+    steps:
+      - name: Show Output
+        run: echo '${{ version }}'
+        
