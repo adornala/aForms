@@ -11,3 +11,9 @@ jobs:
     uses: ./.github/workflows/job2.yml
     with:
       version: ${{ inputs.version }}
+  job3:
+    name: Release version
+    needs: [job1]
+    uses: ./.github/workflows/job4.yml
+    with:
+      release: ${{ needs.job1.outputs.release }}
