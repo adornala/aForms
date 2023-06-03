@@ -18,5 +18,5 @@ jobs:
       release: '10'
     steps:
       - name: Show Output
-        run: echo '${{ version }}'
+        run: echo '${{ inputs.version }}'
         
